@@ -1,0 +1,72 @@
+section{
+    text-align: center;
+    background-color:hsl(246 38% 16%);
+    color:white;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius:10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 25px;
+}
+.image{
+    background:url("./image-header-desktop.jpg");
+    /* background-blend-mode:overlay; */
+    mix-blend-mode: color-dodge;
+    
+    height:320px;
+    background-size:cover ;
+    
+}
+.insights{
+color:hsl(277deg 70% 62%);
+
+
+}
+.card-info{
+    color:hsl(240deg 11% 82%);
+    font-weight:300;
+    
+}
+.card-count-title{
+    text-transform: uppercase;
+    color:hsl(240deg 11% 82%);
+    margin-top:5px;
+    font-size:12px;
+    letter-spacing:2px;
+    font-weight:300;
+
+}
+.card-count{
+font-size:20px;
+margin-bottom:0px;
+}
+.content{
+    padding:36px;
+    
+}
+@media(min-width:470px){
+    .card-social-media{
+        display:flex;
+        justify-content: space-around;
+    }
+}
+@media(min-width:790px){
+   section{
+       text-align: left;
+       display:flex;
+       flex-direction: row-reverse;
+       max-width: 920px;
+   } 
+   .image{
+       width:985px;
+       height:350px;
+   }
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    
+}
+
